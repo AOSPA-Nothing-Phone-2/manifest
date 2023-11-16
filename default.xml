@@ -20,6 +20,11 @@
   <include name="system.xml"/>
   <include name="vendor.xml"/>
 
+  <!-- Phone 2 -->
+  <remote  name="phone2"
+           fetch="https://github.com/AOSPA-Nothing-Phone-2"
+           revision="uvite" />
+
   <!-- AOSPA -->
   <remote  name="aospa"
            fetch=".."

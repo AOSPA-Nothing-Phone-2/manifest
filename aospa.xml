@@ -93,7 +93,7 @@
   <project path="kernel/configs" name="AOSPA/android_kernel_configs" remote="aospa" />
 
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" />
+  <project path="manifest" name="manifest" remote="phone2" />
 
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
@@ -161,7 +161,7 @@
   <project path="toolchain/pgo-profiles" name="AOSPA/android_toolchain_pgo-profiles" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
-  <project path="vendor/aospa" name="AOSPA/android_vendor_aospa" remote="aospa" >
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="phone2" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" remote="aospa" />
